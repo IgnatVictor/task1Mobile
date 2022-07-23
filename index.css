@@ -1,0 +1,922 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.footer p {
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+    margin-bottom: 200px;
+
+}
+
+.footer {
+    background-color: rgb(233, 233, 233);
+    height: 200px;
+
+}
+
+header {
+    width: 100vw;
+    height: 90vh;
+    background-image: url("https://i.ibb.co/YTLL8SY/water-unsplash-2.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
+    color: #777;
+    font-size: 45px;
+    font-weight: 100;
+}
+
+
+
+.title1 {
+    font-size: 7vmin;
+    font-family: "SourceSansPro", Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    font-size: 2.2vmin;
+    margin-bottom: 30px;
+}
+
+.contacts {
+    margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-content {
+    margin-top: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h3 {
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: white;
+}
+
+.header-content p {
+    color: white;
+}
+
+
+.tableDiv h3,p,table {
+    color: #646464;
+}
+
+.tableDiv h3,
+p {
+    margin-bottom: 30px;
+}
+
+.tableDiv h3 {
+    font-size: 4vmin;
+    font-weight: 100;
+}
+
+.contacts p {
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.contacts h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #646464;
+    margin: 10px auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    opacity: 80%;
+}
+
+.line4 {
+    width: 25%;
+    height: 2px;
+    background-color: #646464;
+    margin: 10px auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    opacity: 80%;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+a:hover {
+    border-color: azure;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: transparent;
+    border-radius: 5px;
+    color: red;
+}
+
+/*nav */
+
+.active {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    background-image: url("https://i.ibb.co/YTLL8SY/water-unsplash-2.jpg");
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+
+}
+
+.divButton2 {
+    margin: 0 auto;
+    margin-top: -250px;
+}
+
+.menu-btn {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    right: 345px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+    opacity: 80%;
+    border-radius: 10px;
+}
+
+section {
+    width: 70%;
+    margin: 60px auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -200px;
+    border-radius: 5px;
+}
+
+.section3 {
+    width: 50%;
+    margin: 0px 35px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    padding: 60px 180px 50px 180px;
+}
+
+.image2 {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.right2  p {
+    color: #777;
+    font-size: 20px;
+}
+
+.left2 p {
+    color: #777;
+    font-size: 20px;
+}
+
+.right2 {
+
+    background-color: white;
+    text-align: center;
+    float: right;
+    width: 48%;
+    border-radius: 5px;
+}
+
+.left2 {
+    text-align: center;
+    float: left;
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead th {
+    border-bottom: 2px solid #777;
+}
+
+tbody tr td {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.left p {
+    color: #777;
+
+}
+
+.right p {
+    color: #777;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+.tableDiv p {
+    color: #777;
+}
+
+.right2 h3 {
+    font-size: 4vmin;
+    font-weight: 100;
+}
+
+.left2 h3 {
+    font-size: 4vmin;
+    font-weight: 100;
+}
+
+.right2 p {
+    padding: 40px 30px 40px 30px;
+}
+
+.left2 p {
+    padding: 40px 30px 40px 30px;
+}
+
+
+.button2 {
+    display: inline-block;
+    padding: 0.05em 0.9em;
+    width: 200px;
+    height: 50px;
+    color: #ffffff;
+    border-color: none;
+    margin: 0 0.5em 0.3em 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: Transparent;
+    text-align: center;
+    transition: all 0.2s;
+    border-color: white;
+}
+
+
+.button2:hover {
+    cursor: pointer;
+    color: #0c0606;
+    background-color: white;
+    border-color: white;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 0.05em 0.2em;
+    width: 80px;
+    height: 40px;
+    color: #ffffff;
+    border-color: none;
+    margin: 0 0.5em 0.3em 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: Transparent;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.button1:hover {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: white;
+}
+
+
+.title p {
+    color: #646464;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+
+.image1 {
+    width: 100%;
+}
+
+.button4 {
+    font-size: larger;
+    color: #646464;
+    background-color: #ffffff;
+    border: 3px solid #f5f5f5;
+    padding: 15px 35px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.button4:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+
+h3,
+p {
+    color: #646464;
+}
+
+.divSplit {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.lineBottom {
+    border-right: 2px solid #646464;
+}
+
+.line1 {
+    width: 100%;
+    height: 2px;
+    background-color: #646464;
+    margin: 10px auto;
+    border-radius: 4px;
+    opacity: 80%;
+    margin-top: -48px;
+    margin-bottom: -50px;
+
+}
+
+.line2 {
+    border-left: 6px solid green;
+    height: 500px;
+}
+
+
+
+
+.left h3 {
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #777;
+}
+
+.left p {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #777;
+}
+
+.right h3 {
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: #777;
+}
+
+.right p {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #777;
+}
+
+.resizable {
+    width: 50%;
+    height: 120px;
+    background-color: coral;
+    display: inline-block;
+}
+
+.tableDiv {
+    padding: 40px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+.signup {
+    background-color: #0648A4;
+    width: 100%;
+    text-align: center;
+    margin-top: -150px;
+    padding: 50px 0px 50px 0px;
+}
+
+.signup h3,
+p {
+    color: white;
+}
+
+.signup h3 {
+    font-size: 4vmin;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.signup p {
+    margin-bottom: 20px;
+}
+
+.input1 {
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+    background-color: #2b63b2;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+
+::placeholder {
+    color: white;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+.InputSignup {
+    display: inline-block;
+}
+
+.buttonInput {
+    font-size: 15px;
+    color: #646464;
+    background-color: #ffffff;
+    border: 3px solid #f5f5f5;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.buttonInput :hover {
+    cursor: pointer;
+}
+
+input:focus~label,
+textarea:focus~label,
+input:valid~label,
+textarea:valid~label {
+    font-size: 0.75em;
+    color: #999;
+    top: -5px;
+    -webkit-transition: all 0.225s ease;
+    transition: all 0.225s ease;
+}
+
+.styled-input {
+    float: left;
+    width: 293px;
+    margin: 1rem 0;
+    position: relative;
+    border-radius: 4px;
+}
+
+.styled-input.wide {
+    width: 650px;
+    max-width: 100%;
+}
+
+.styled-input ::placeholder {
+    color: #777;
+}
+
+
+textarea {
+    padding: 30px;
+    border: 0;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #e5e5e5;
+    color: rgb(8, 6, 6);
+    border-radius: 4px;
+}
+
+.input3 {
+    padding: 20px;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+    background-color: #e5e5e5;
+    color: rgb(5, 4, 4);
+    border-radius: 4px;
+}
+
+.submit-btn {
+    align-content: center;
+    margin-bottom: 20px;
+    padding: 15px 35px;
+    margin-left: 260px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #2d2d2d;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),
+        0 2px 10px 0 rgba(0, 0, 0, 0.07);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10),
+        0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+input:focus~span,textarea:focus~span {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+}
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
+.container {
+    background-color: white;
+    width: 950px;
+    padding: 0 0px 0 0px;
+    border-radius: 5px;
+    align-items: center;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    min-height: 15em;
+}
+
+input:focus,textarea:focus {
+    outline: 0;
+}
+
+
+input[type=checkbox]+label {
+    color: #ccc;
+    font-style: italic;
+}
+
+input[type=checkbox]:checked+label {
+    color: #f00;
+    font-style: normal;
+}
+
+.icons {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+/*mobile */
+
+
+@media only screen and (max-width: 850px) {
+    .menu-btn {
+        display: block;
+        color: transparent;
+
+    }
+
+    .line4 {
+        width: 250px;
+        height: 2px;
+        background-color: #646464;
+        margin: 10px auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        opacity: 80%;
+    }
+
+    .container {
+        background-color: white;
+        width: 350px;
+        padding: 0 0px 0 0px;
+        align-items: center;
+        margin: auto;
+    }
+
+    .submit-btn {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .title h1 {
+        color: #777;
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+    .styled-input {
+        float: none;
+        width: 100%;
+        position: relative;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    section {
+        width: 100%;
+        margin: 50px auto;
+        background-color: #ffffff;
+        position: relative;
+        top: -30px;
+    }
+
+    .button1 {
+        padding: 0.05em 0.2em;
+        width: 80px;
+        height: 50px;
+        color: #ffffff;
+        border-color: none;
+        border: none;
+        border-radius: none;
+        box-sizing: border-box;
+        background-color: Transparent;
+        text-align: center;
+        transition: all 0.8s;
+        display: inline;
+        margin: 2px 1px 2px 1px;
+        z-index: 0;
+        background-color: #0c0606;
+    }
+
+    .button1:hover {
+        background-color: white;
+        color: #0c0606;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 25px;
+    }
+
+    .title p {
+        color: #646464;
+        margin-bottom: 50px;
+        padding-top: 20px;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .left p, h3 {
+        margin-right: 25px;
+    }
+
+    .right p,
+    h3 {
+        margin-left: 25px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 40%;
+        height: 20%;
+        background: black;
+        margin-top: -900px;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .mobile-menu {
+        margin-right: 20px;
+        height: 281px;
+        margin-top: 0px;
+        border-radius: 2px;
+    }
+
+    .nav-links li {
+        margin: 30px auto;
+    }
+
+    .subtitle {
+        font-size: small;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .button2 {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .divButton2 {
+        margin-top: -50px;
+    }
+
+    .logo {
+        opacity: 0%;
+    }
+
+    .title {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .line {
+        width: 330px;
+        height: 2px;
+        background-color: #646464;
+        margin: 10px auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        opacity: 80%;
+    }
+
+    .header-content {
+        margin-top: 50px;
+    }
+
+    .header-content h3 {
+        font-size: 55px;
+    }
+
+    header {
+        width: 100vw;
+        height: 50%;
+        background-image: url("https://i.ibb.co/YTLL8SY/water-unsplash-2.jpg");
+        background-position: bottom;
+        background-size: cover;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .line1 {
+        width: 330px;
+        height: 2px;
+        background-color: #646464;
+        margin: 10px auto;
+        border-radius: 4px;
+        opacity: 80%;
+        margin-top: -48px;
+        margin-bottom: -50px;
+    }
+    
+    .input1 {
+        margin-right: 0;
+    }
+
+    .image2 {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+
+    .right2 {
+        text-align: center;
+        margin-right: 2.5px;
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        background-color: white;
+    }
+
+    .left2 {
+        margin-bottom: 5px;
+        margin-left: 2.5px;
+        text-align: center;
+        float: none;
+        width: 100%;
+        background-color: white;
+    }
+
+    .left2 h3 {
+        font-size: 30px;
+        color: #777;
+    }
+    .right2 h3 {
+        color:#777;
+        font-size: 30px;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .tableDiv h3 {
+        color: #777;
+        font-size: 30px;
+    }
+
+    .InputSignup {
+        display: block;
+        width: 100%;
+    }
+
+    input {
+        width: 90%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .buttonInput {
+        width: 90%;
+    }
+
+    .signup {
+        margin-top: 0px;
+    }
+
+    .signup h3 {
+        font-size: 30px;
+    }
+}
